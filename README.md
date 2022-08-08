@@ -1,2 +1,2 @@
 # Portifolio
-Meu Protifolio Pesoal
+Meu Portifolio Pessoal
