@@ -16,7 +16,17 @@ rapid_metrics = pd.DataFrame([['printed',91.6,70,79.4],['handwritten',21.1,34.7,
 rapid_metrics = rapid_metrics.set_index(['category'])
 
 skill_col_size = 5
-embed_component= {'linkedin':}
+embed_component= {'linkedin':"""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="evandro-cleto-51b49340" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/evandro-cleto-51b49340?trk=profile-badge">Evandro Cleto</a></div>"""
+		
+		, 'medium':"""<div style="overflow-y: scroll; height:500px;"> <div id="retainable-rss-embed" 
+data-rss="https://medium.com/feed/retainable,https://medium.com/feed/data-science-in-your-pocket"
+data-maxcols="3" 
+data-layout="grid"
+data-poststyle="inline" 
+data-readmore="Read the rest" 
+data-buttonclass="btn btn-primary" 
+data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>"""}
 
 
 
