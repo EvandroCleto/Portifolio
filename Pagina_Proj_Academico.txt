@@ -1,0 +1,56 @@
+R
+• Big Data na Prática 3 - Data Science no Varejo com Market Basket Analysis
+• Big Data na Prática 4 - Segmentação de Clientes com Base em Análise RFM (Recência,
+Frequência e Valor Monetário)
+######## Big Data na Prática 5 - Análise de Séries Temporais no Mercado Financeiro
+Python
+######## Mini-Projeto 5- Machine Learning na Engenharia Civil com Apache Spark
+Mini-Projeto 6 -Análise de Dados de Sensores IoT em Tempo Real com Apache Spark Streaming e Apache Kafka
+Mini-Projeto 7 -Sistema de Recomendação em Tempo Real com Machine Learning, PySpark, Spark Streaming e Kafka
+Lab 4 - Manipulação de Dados com SparkSQL, PandaSQL, SQLAlchemy, PostgreSQL e Docker
+######## Lab 5 -Machine Learning com PySpark
+######## Lab 6 -Análise de Dados em Tempo Real com Apache Spark Structured Streaming
+Hadoop
+Mini-Projeto 2 Prevendo a Ocorrência de Doenças Cardíacas
+Mini-Projeto 3 Design de um Job MapReduce para Gastos Totais por Cliente
+ML
+• Estudo de Caso 4 - Buscador de Palavras em Texto Por Similaridade
+• Estudo de Caso 5 - Previsão de Palavras com Base no Contexto e Visualização com PCA
+########• Estudo de Caso 6 - Tradutor de Idioma com Machine Learning e PLN
+• Estudo de Caso 7 - Prevendo os Efeitos do Consumo de Álcool em Doenças do Fígado
+########• Estudo de Caso 8 - Deep Learning em R Para Classificação de Imagens
+• Mini-Projeto 2 - Prevendo a Intenção de Compra de Usuários de E-Commerce
+• Mini-Projeto 3 - Text Analytics em Recursos Humanos
+• Mini-Projeto 4 - Usando a Rede Neural Para Prever a Ocorrência de Câncer
+########• Mini-Projeto 5 - Rede Neural com TensorFlow Para Classificação de Imagens de
+Vestuário
+########• Mini-Projeto 6 - Classificação de Imagens com Deep Learning e PyTorch e Torchvision
+em GPU
+• Mini-Projeto 7 - Sistema de Recomendação de Filmes da Netflix
+• Mini-Projeto 8 - Implementando um Classificador de Spam com Naive Bayes
+Business
+########Projeto 2 - Marketing Analytics - Teste A/B
+Projeto 3 - Marketing Analytics - Análise de Indicadores de Performance em Redes de Varejo
+########Projeto 4 - Marketing Analytics - Otimização de Preços e Mix de Produtos
+Mini-Projeto 1 -AI Bot Trader - Robô Investidor Para Recomendação de Compra e Venda de Criptomoedas
+Mini-Projeto 2 - Analise de Risco em Operações Financeiras
+Mini-Projeto 3 -Data Quality Report e Detecção de Fraudes em Transações Imobiliárias
+Mini-Projeto 4- Detecção de Fraudes em Transações de Vendas Online
+Mini-Projeto 5 - Text Analytics Para Analisar a Reação do Mercado Sobre as Notícias de Uma Empresa
+Mini-Projeto 6 -Análise de Preço e Análise Textual do Noticiário Econômico Para Previsão de Ativos Financeiros
+Mini-Projeto 7 - Previsão de Demanda de Pedidos com Multivariable Regression Analysis
+Mini-Projeto 8- Prevendo Riscos em Supply Chain Usando Regras de Associação e Multiclass Classification com PySpark
+Dash
+########• Mini-Projeto 2 - Data App - Dashboard Financeiro Interativo e em Tempo Real Para
+Previsão de Ativos Financeiros
+• Mini-Projeto 3 - Data App - Dashboard Interativo Para Detecção de Fraudes com
+H2O Wave
+• Mini-Projeto 4 - Data App - Dashboard Interativo Para Análise de Chamados de
+Suporte
+• Mini-Projeto 5 - Dashboard Interativo Para Social Media Report
+• Mini-Projeto 6 - Dashboard Estatístico Para Automação da Análise Exploratória
+• Mini-Projeto 7 - Construindo Mapa do Brasil Online, Interativo e Responsivo Para
+Análise de Dados
+• Mini-Projeto 8 - Construindo Dashboard Interativo com Metabase
+• Mini-Projeto 9 - Construindo Visualização de Dados para Apresentação Executiva
+########• Mini-Projeto 10 - Infográfico Para Storytelling em Projetos de Data Science
