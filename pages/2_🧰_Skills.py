@@ -21,7 +21,7 @@ with col2:
 col3, col4 = st.columns(2)
 
 with col3:
-    ml = st.slider('Machine Learning R', 0, 100, 90)
+    ml = st.slider('Machine Learning', 0, 100, 90)
 
 with col4:
     office = st.slider('Pacote Office', 0, 100, 90)
@@ -37,10 +37,10 @@ with col6:
 col7, col8 = st.columns(2)
 
 with col7:
-    aml = st.slider('Azure Machine Leraning', 0, 100, 80)
+    aml = st.slider('Azure Machine Learning', 0, 100, 80)
 
 with col8:
-    stats = st.slider('Estatistica', 0, 100, 80)
+    stats = st.slider('Estatística', 0, 100, 80)
 
 col9, col10 = st.columns(2)
 
