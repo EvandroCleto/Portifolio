@@ -16,8 +16,8 @@ Mini-Projeto 3 Design de um Job MapReduce para Gastos Totais por Cliente
 ML
 • Estudo de Caso 4 - Buscador de Palavras em Texto Por Similaridade
 • Estudo de Caso 5 - Previsão de Palavras com Base no Contexto e Visualização com PCA
-########• Estudo de Caso 6 - Tradutor de Idioma com Machine Learning e PLN
-• Estudo de Caso 7 - Prevendo os Efeitos do Consumo de Álcool em Doenças do Fígado
+• Estudo de Caso 6 - Tradutor de Idioma com Machine Learning e PLN
+******** Ok Estudo de Caso 7 - Prevendo os Efeitos do Consumo de Álcool em Doenças do Fígado
 ******** Ok Estudo de Caso 8 - Deep Learning em R Para Classificação de Imagens
 • Mini-Projeto 2 - Prevendo a Intenção de Compra de Usuários de E-Commerce
 • Mini-Projeto 3 - Text Analytics em Recursos Humanos
@@ -37,7 +37,7 @@ Mini-Projeto 2 - Analise de Risco em Operações Financeiras
 Mini-Projeto 3 -Data Quality Report e Detecção de Fraudes em Transações Imobiliárias
 Mini-Projeto 4- Detecção de Fraudes em Transações de Vendas Online
 Mini-Projeto 5 - Text Analytics Para Analisar a Reação do Mercado Sobre as Notícias de Uma Empresa
-Mini-Projeto 6 -Análise de Preço e Análise Textual do Noticiário Econômico Para Previsão de Ativos Financeiros
+******** Ok Mini-Projeto 6 -Análise de Preço e Análise Textual do Noticiário Econômico Para Previsão de Ativos Financeiros
 Mini-Projeto 7 - Previsão de Demanda de Pedidos com Multivariable Regression Analysis
 Mini-Projeto 8- Prevendo Riscos em Supply Chain Usando Regras de Associação e Multiclass Classification com PySpark
 Dash

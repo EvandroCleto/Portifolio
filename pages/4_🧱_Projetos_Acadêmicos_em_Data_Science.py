@@ -16,7 +16,6 @@ with st.container():
         st.markdown("" )
 
     with col2:
-       
         image = Image.open('Logo_DSA.png')
         st.image(image,width=250)
     
@@ -37,14 +36,14 @@ with st.container():
     with col4:
         
         st.markdown("### Análise de Séries Temporais no Mercado Financeiro.")
-        image = Image.open('Logo_R.png')
-        st.image(image,width=80)
+        image1 = Image.open('Logo_R.png')
+        st.image(image1,width=80)
 
 
     with col5:
        
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Ser_Temp_R.png')
-        st.image(image,width=350)
+        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Ser_Temp_R.png')
+        st.image(image2,width=350)
 
     
     col6 = st.columns(1)
@@ -62,11 +61,16 @@ with st.container():
     with col7:
     
         st.markdown("### Projeto Teste A/B.")
-        st.image(Image.open('Logo_Python.png'),width=60)
-        st.image(Image.open('Logo_Scipy.png'),width=70)
-        st.image(Image.open('Logo_NumPy.png'),width=80)
-        st.image(Image.open('Logo_Pandas.png'),width=80)
-        st.image(Image.open('Logo_matplot.png'),width=80)
+        image1 = Image.open('Logo_Python.png')
+        st.image(image1,width=60)
+        image2 = Image.open('Logo_Scipy.png')
+        st.image(image2 ,width=70)
+        image3 = Image.open('Logo_NumPy.png')
+        st.image(image3,width=80)
+        image4 = Image.open('Logo_Pandas.png')
+        st.image(image4,width=80)
+        image5 = Image.open('Logo_matplot.png')
+        st.image(image5,width=80)
 
 
     with col8:
@@ -74,8 +78,9 @@ with st.container():
         st.text("")
         st.text("")
         st.text("")
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\TesteAB.png')
-        st.image(image,width=350)
+        
+        image6 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\TesteAB.png')
+        st.image(image6,width=350)
 
     
     col9 = st.columns(1)
@@ -94,15 +99,18 @@ with st.container():
     with col10:
     
         st.markdown("### Projeto Machine Learning com PySpark.")
-        st.image(Image.open('Logo_Python.png'),width=100)
-        st.image(Image.open('Logo_Spark.png'),width=100)
+        image1 = Image.open('Logo_Python.png')
+        st.image(image1,width=100)
+        
+        image2 = Image.open('Logo_Spark.png')
+        st.image(image2,width=100)
 
     with col11:
         st.text("")
         st.text("")
         st.text("")
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\ML_Spark.png')
-        st.image(image,width=350)
+        image3 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\ML_Spark.png')
+        st.image(image3,width=350)
 
     
     col12 = st.columns(1)
@@ -120,10 +128,14 @@ with st.container():
     with col13:
     
         st.markdown("### Sistema de Recomendação em Tempo Real com Machine Learning, PySpark, Spark Streaming e Kafka.")
-        st.image(Image.open('Logo_Python.png'),width=50)
-        st.image(Image.open('Logo_Spark.png'),width=70)
-        st.image(Image.open('Logo_Kafka.png'),width=70)
-        st.image(Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Logo_Spotify.png'),width=40)
+        image1 = Image.open('Logo_Python.png')
+        st.image(image1,width=50)
+        image2 = Image.open('Logo_Spark.png')
+        st.image(image2,width=70)
+        image3 = Image.open('Logo_Kafka.png')
+        st.image(image3,width=70)
+        image4 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Logo_Spotify.png')
+        st.image(image4,width=40)
         
 
     with col14:
@@ -134,8 +146,8 @@ with st.container():
         st.text("")
         st.text("")
         st.text("")
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Spotify.png')
-        st.image(image,width=450)
+        image5 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Spotify.png')
+        st.image(image5,width=450)
 
     
     col15 = st.columns(1)
@@ -155,12 +167,13 @@ with st.container():
     with col16:
     
         st.markdown("### Deep Learning em R para Classificão de Imagens.")
-        st.image(Image.open('Logo_R.png'),width=80)
+        image1 = Image.open('Logo_R.png')
+        st.image(image1,width=80)
   
     with col17:
 
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Deep_L_Classif.png')
-        st.image(image,width=450)
+        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Deep_L_Classif.png')
+        st.image(image2,width=450)
 
     
     col18 = st.columns(1)
@@ -178,14 +191,14 @@ with st.container():
     with col19:
     
         st.markdown("### Rede Neural com TensorFlow Para Classificação de Imagens de Vestuário.")
-        st.image(Image.open('Logo_Python.png'),width=70)
-        st.image(Image.open('Logo_Tesnsoflow.png'),width=80)
+        image1 = Image.open('Logo_Python.png')
+        st.image(image1,width=70)
+        image2 = Image.open('Logo_Tensorflow.png')
+        st.image(image2,width=80)
     with col20:
-
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Rede_Neural.png')
-        st.image(image,width=450)
-
-    
+        image3 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Rede_Neural.png')
+        st.image(image3,width=450)
+            
     col21 = st.columns(1)
     
     st.markdown("**Resumo:** ")
@@ -201,16 +214,51 @@ with st.container():
     with col22:
     
         st.markdown("### Prevendo os Efeitos do Consumo de Álcool em Doenças do Fígado")
-        st.image = Image.open('Logo_R.png')
+        image1 = Image.open('Logo_R.png')
+        st.image(image1,width=80)
 
     with col23:
-
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Previsao_Doencas_Figado.png')
-        st.image(image,width=450)
-
-    
+        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Prev_Doencas.png')
+        st.image(image2 ,width=350)
+        
     col24 = st.columns(1)
     
     st.markdown("**Resumo:** ")
     st.markdown(" Neste estudo de caso foi usado um modelo de rede neural para prever os efeitos do consumo de álcool em doenças do fígado. ")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Rede_Neural_TensorFlow.ipynb")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Previsao_Doencas_Figado.R")
+    
+with st.container():
+
+    st.markdown("----------------")    
+    
+    col25, col26 = st.columns(2)
+
+    with col25:
+    
+        st.markdown("### Análise de Preço e Análise Textual do Noticiário Econômico Para Previsão de Ativos Financeiros")
+        image1 = Image.open('Logo_Python.png')
+        st.image(image1,width=50)
+        image2 = Image.open('Logo_NLTK.png')
+        st.image(image2,width=40)
+        image3 = Image.open('Logo_XGBoost.png')
+        st.image(image3,width=50)
+        image3 = Image.open('Logo_SciKit.png')
+        st.image(image3,width=50)
+        
+        
+
+    with col26:
+        st.text("")
+        st.text("")
+        st.text("")
+        st.text("")
+        st.text("")
+
+        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\PNL_Merc_Fin.png')
+        st.image(image2 ,width=450)
+        
+    col26 = st.columns(1)
+    
+    st.markdown("**Resumo:** ")
+    st.markdown(" Neste projeto foi construido um modelo preditivo trabalhando com duas fontes de dados diferentes. Uma das fontes tem dados históricos de cotação de ativos financeiros, sobre os quais foi feita análise numérica. A outra fonte tem dados de texto do noticiário econômico, sobre os quais foi realizado análise textual. O objetivo é unir esses datsets e construir um modelo preditivo capaz de prever o valor de ativos financeiros. ")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Previsao_Doencas_Figado.R")
