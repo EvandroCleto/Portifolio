@@ -178,11 +178,11 @@ with st.container():
     with col19:
     
         st.markdown("### Rede Neural com TensorFlow Para Classificação de Imagens de Vestuário.")
-        st.image(Image.open('Logo_Python.png'),width=80)
-        st.image(Image.open('LLogo_Tesnsoflow.png'),width=80)
+        st.image(Image.open('Logo_Python.png'),width=70)
+        st.image(Image.open('Logo_Tesnsoflow.png'),width=80)
     with col20:
 
-        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Deep_L_Classif.png')
+        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Rede_Neural.png')
         st.image(image,width=450)
 
     
@@ -190,4 +190,27 @@ with st.container():
     
     st.markdown("**Resumo:** ")
     st.markdown(" Neste Projeto foi construida uma rede neural artificial com TensorFlow para classificação de imagens, especificamente classificação de imagens de roupas e acessórios.")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Deep_Learning_Classific.R")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Rede_Neural_TensorFlow.ipynb")
+
+with st.container():
+
+    st.markdown("----------------")    
+    
+    col22, col23 = st.columns(2)
+
+    with col22:
+    
+        st.markdown("### Prevendo os Efeitos do Consumo de Álcool em Doenças do Fígado")
+        st.image = Image.open('Logo_R.png')
+
+    with col23:
+
+        image = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Previsao_Doencas_Figado.png')
+        st.image(image,width=450)
+
+    
+    col24 = st.columns(1)
+    
+    st.markdown("**Resumo:** ")
+    st.markdown(" Neste estudo de caso foi usado um modelo de rede neural para prever os efeitos do consumo de álcool em doenças do fígado. ")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Rede_Neural_TensorFlow.ipynb")

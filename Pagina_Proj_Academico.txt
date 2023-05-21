@@ -22,7 +22,7 @@ ML
 • Mini-Projeto 2 - Prevendo a Intenção de Compra de Usuários de E-Commerce
 • Mini-Projeto 3 - Text Analytics em Recursos Humanos
 • Mini-Projeto 4 - Usando a Rede Neural Para Prever a Ocorrência de Câncer
-########• Mini-Projeto 5 - Rede Neural com TensorFlow Para Classificação de Imagens de
+******** Ok Mini-Projeto 5 - Rede Neural com TensorFlow Para Classificação de Imagens de
 Vestuário
 ########• Mini-Projeto 6 - Classificação de Imagens com Deep Learning e PyTorch e Torchvision
 em GPU
