@@ -41,8 +41,8 @@ with st.container():
 
 
     with col5:
-       
-        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Ser_Temp_R.png')
+        Image.open('https://github.com/EvandroCleto/Portifolio/tree/main/Page_4-Projetos_Academicos/imagens/Ser_Temp_R.png')
+        #image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Ser_Temp_R.png')
         st.image(image2,width=350)
 
     
