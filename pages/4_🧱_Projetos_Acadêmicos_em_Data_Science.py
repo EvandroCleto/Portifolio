@@ -41,8 +41,8 @@ with st.container():
 
 
     with col5:
-        Image.open('https://github.com/EvandroCleto/Portifolio/blob/b9e8e0203d858d8396d9123c22d9ebadee1e40a8/Page_4-Projetos_Academicos/imagens/Ser_Temp_R.png')
-        #image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Ser_Temp_R.png')
+        
+        image2 = Image.open('Ser_Temp_R.png')
         st.image(image2,width=350)
 
     
@@ -79,7 +79,7 @@ with st.container():
         st.text("")
         st.text("")
         
-        image6 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\TesteAB.png')
+        image6 = Image.open('TesteAB.png')
         st.image(image6,width=350)
 
     
@@ -109,7 +109,7 @@ with st.container():
         st.text("")
         st.text("")
         st.text("")
-        image3 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\ML_Spark.png')
+        image3 = Image.open('ML_Spark.png')
         st.image(image3,width=350)
 
     
@@ -134,7 +134,7 @@ with st.container():
         st.image(image2,width=70)
         image3 = Image.open('Logo_Kafka.png')
         st.image(image3,width=70)
-        image4 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Logo_Spotify.png')
+        image4 = Image.open('Logo_Spotify.png')
         st.image(image4,width=40)
         
 
@@ -146,7 +146,7 @@ with st.container():
         st.text("")
         st.text("")
         st.text("")
-        image5 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Spotify.png')
+        image5 = Image.open('Spotify.png')
         st.image(image5,width=450)
 
     
@@ -172,7 +172,7 @@ with st.container():
   
     with col17:
 
-        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Deep_L_Classif.png')
+        image2 = Image.open('Deep_L_Classif.png')
         st.image(image2,width=450)
 
     
@@ -196,7 +196,7 @@ with st.container():
         image2 = Image.open('Logo_Tensorflow.png')
         st.image(image2,width=80)
     with col20:
-        image3 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Rede_Neural.png')
+        image3 = Image.open('Rede_Neural.png')
         st.image(image3,width=450)
             
     col21 = st.columns(1)
@@ -218,7 +218,7 @@ with st.container():
         st.image(image1,width=80)
 
     with col23:
-        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Prev_Doencas.png')
+        image2 = Image.open('Prev_Doencas.png')
         st.image(image2 ,width=350)
         
     col24 = st.columns(1)
@@ -254,7 +254,7 @@ with st.container():
         st.text("")
         st.text("")
 
-        image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\PNL_Merc_Fin.png')
+        image2 = Image.open('PNL_Merc_Fin.png')
         st.image(image2 ,width=450)
         
     col26 = st.columns(1)
