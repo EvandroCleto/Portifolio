@@ -261,4 +261,4 @@ with st.container():
     
     st.markdown("**Resumo:** ")
     st.markdown(" Neste projeto foi construido um modelo preditivo trabalhando com duas fontes de dados diferentes. Uma das fontes tem dados históricos de cotação de ativos financeiros, sobre os quais foi feita análise numérica. A outra fonte tem dados de texto do noticiário econômico, sobre os quais foi realizado análise textual. O objetivo é unir esses datsets e construir um modelo preditivo capaz de prever o valor de ativos financeiros. ")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Previsao_Doencas_Figado.R")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Cap12-Text-Analytics.ipynb")
