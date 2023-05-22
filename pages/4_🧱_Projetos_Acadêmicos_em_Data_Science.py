@@ -41,7 +41,7 @@ with st.container():
 
 
     with col5:
-        Image.open('https://github.com/EvandroCleto/Portifolio/blob/b9e8e0203d858d8396d9123c22d9ebadee1e40a8/Page_4-Projetos_Academicos/imagens/Ser_Temp_R.png')
+        Image.open('https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/imagens/Ser_Temp_R.png')
         #image2 = Image.open('D:\Portifolio\Page_4-Projetos_Academicos\imagens\Ser_Temp_R.png')
         st.image(image2,width=350)
 
