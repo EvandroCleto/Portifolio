@@ -9,11 +9,10 @@ st.set_page_config(
 
 st.write('### **Como me encontrar:**')
 
-#components.html(embed_component['linkedin'],height=310)
 components.html("""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="evandro-cleto-51b49340" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/evandro-cleto-51b49340?trk=profile-badge"></a></div>""",height=250)
     
-#st.sidebar.write('Linkdin: https://www.linkedin.com/in/evandro-cleto-51b49340/?locale=pt_BR&original_referer=')
+st.write('LinkedIn: https://www.linkedin.com/in/evandro-cleto/?locale=pt_BR')
 st.write('📧: **evandrocleto74@gmail.com**')
 st.write('📱: **+551197069-0730**')
 

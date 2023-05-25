@@ -10,8 +10,8 @@ st.set_page_config(
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("Olá. Eu sou o Evandro Cleto, Data Scientist (Formado e Certificado pela Data Science Academy), Consultor ERP Totvs Protheus, pai do Gabriel, Ultra-maratonista amador e aspirante a cozinheiro(O Gabriel fala que o melhor arroz e feijão do mundo é o do Papai!!)")
-    st.markdown("Tenho 14+ anos de experiência em solucionar problemas de negócio utilizando como ferramentas, o ERP Totvs Protheus nas áreas de Faturamento, Produção, Estoque, Financeiro, Gestão de Contratos e de Serviços, SQL e mais recentemente, Machine Learning.")
+    st.markdown("Olá. Eu sou o Evandro Cleto, Data Scientist, formado e certificado pela Data Science Academy, consultor ERP Totvs Protheus, pai do Gabriel, ultra-maratonista amador e aspirante a cozinheiro (0 Gabriel fala que o melhor arroz e feijão do mundo é o do papai!!)")
+    st.markdown("Tenho 14+ anos de experiência na solucionação de problemas de negócios utilizando como ferramentas o ERP Totvs Protheus nas áreas de Faturamento, Produção, Estoque, Financeiro, Gestão de Contratos e de Serviços, SQL e mais recentemente, Machine Learning.")
     st.markdown("É um prazer receber sua visita e compartilhar um pouco da minha experiência com você.")
 
 with col2:

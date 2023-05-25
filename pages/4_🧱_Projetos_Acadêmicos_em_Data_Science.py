@@ -202,7 +202,7 @@ with st.container():
     col21 = st.columns(1)
     
     st.markdown("**Resumo:** ")
-    st.markdown(" Neste Projeto foi construida uma rede neural artificial com TensorFlow para classificação de imagens, especificamente classificação de imagens de roupas e acessórios.")
+    st.markdown(" Neste Projeto foi construída uma rede neural artificial com TensorFlow para classificação de imagens, especificamente classificação de imagens de roupas e acessórios.")
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Rede_Neural_TensorFlow.ipynb")
 
 with st.container():
@@ -260,5 +260,5 @@ with st.container():
     col26 = st.columns(1)
     
     st.markdown("**Resumo:** ")
-    st.markdown(" Neste projeto foi construido um modelo preditivo trabalhando com duas fontes de dados diferentes. Uma das fontes tem dados históricos de cotação de ativos financeiros, sobre os quais foi feita análise numérica. A outra fonte tem dados de texto do noticiário econômico, sobre os quais foi realizado análise textual. O objetivo é unir esses datsets e construir um modelo preditivo capaz de prever o valor de ativos financeiros. ")
+    st.markdown(" Neste projeto foi desenvolvido um modelo preditivo trabalhando com duas fontes de dados diferentes. Uma das fontes tem dados históricos de cotação de ativos financeiros, sobre os quais foi feita análise numérica. A outra fonte tem dados de texto do noticiário econômico, sobre os quais foi realizado análise textual. O objetivo é unir esses datsets e construir um modelo preditivo capaz de prever o valor de ativos financeiros. ")
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Portifolio/blob/main/Page_4-Projetos_Academicos/fontes/Cap12-Text-Analytics.ipynb")
