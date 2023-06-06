@@ -13,6 +13,67 @@ st.markdown("Aqui estão alguns dos projetos de Data Science que desenvolvi ao l
 
 with st.container():
 
+    st.markdown("----------------")
+    
+    col10, col11 = st.columns(2)
+
+    with col10:
+        st.markdown("**3. Projeto com Feedback:**" )
+        st.markdown("### Análise de Risco no Transporte Público.")
+
+    with col11:
+
+        image = Image.open('Projeto03.png')
+        st.image(image,width=350)
+    
+    col12 = st.columns(1)
+    
+    st.markdown("**Arquitetura do Projeto:** " )
+    
+    image = Image.open('Infra_Projeto.png')
+    st.image(image,width=650)   
+        
+    col13 = st.columns(1)
+    
+    st.markdown("**Resumo:** " )
+    st.markdown("> Objetivo deste projeto foi responder 10 perguntas de negócios sobre transporte publico em Londres através de análise de dados usando os pacotes parkSQL, PandaSQL, SQLAlchemy, MySql e Docker.")
+    st.markdown("> Este foi um projeto desafiador pois foi desenvolvido no Linux Ubuntu 22.04, inicializado através de virtualização pelo Oracle VM VirtualBox que foi instalado em uma máquina com Windows 11.")
+    st.markdown("> O projeto teve início baixando um dataset do Microsoft Excel do link https://data.world/makeovermonday/2018w51, no Linux Ubuntu, onde foi instalado o Anaconda Python.")
+    st.markdown("> O dataset foi carregado através do pacote Pandas, que também foi usado para análise exploratória, em formato de dataframe.") 
+    st.markdown("> A biblioteca SQLAlchemy foi utilizada para criar uma tabela no SGBD MySQL, criar o dicionário de dados e popular esta tabela à partir do dataframe do Pandas ")
+    st.markdown("> Para extração dos dados do MySQL foi usada a biblioteca PandaSQL e o SQLAlchemy como conector com Python.")
+    st.markdown("> Já o MySQL é executado à partir de um container Docker. Ambos, devido à falta de suporte à KVM pelo VirtualBox, foram instalados via command line.")
+    st.markdown("> As 10 pergutas de negócio foram respondidas usando querys pelo SparkSQL, que alimentaram gráficos plotados através do pacote Plotly. ")
+    st.markdown("O guia para a instalação do Docker está aqui: https://github.com/EvandroCleto/Projeto03_V3_Analise_Risco_Transporte/blob/main/Guia_Instalacao_Docker_Linux.txt")
+    st.markdown("E o guia para instalação do container com o MySQL está aqui: https://github.com/EvandroCleto/Projeto03_V3_Analise_Risco_Transporte/blob/main/Guia_Instalacao_MySQL_Docker.txt")
+
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto03_V3_Analise_Risco_Transporte/blob/main/Projeto03_V3_Risco_Transp.ipynb")
+  
+with st.container():
+
+    st.markdown("----------------") 
+    col4, col5 = st.columns(2)
+
+    with col4:
+        st.markdown("**2. Projeto com Feedback:**" )
+        st.markdown("### Machine Learning na Segurança do Trabalho Prevendo a Eficiência de Extintores de Incêndio.")
+
+    with col5:
+
+        image = Image.open('Projeto02r.png')
+        st.image(image,width=350)
+    
+    col6 = st.columns(1)
+    
+    st.markdown("**Resumo:** " )
+    st.markdown("> Criação de projeto de Machine Learning para segurança do trabalho “Prevendo a Eficiênciade Extintores de Incêndio” e com o objetivo da Classificação preditiva atingir 85% de acurácia.") 
+    st.markdown("> O projeto foi realizado de forma independente por 4 semanas para carregar, analisar, limpar, pré-processar, realizar a análises estatísticas e criar e avaliar os modelos de Machine Learning, utilizando linguagem R e seus pacotes readxl (para importar a fonte dedados em Excel), car (para geração de qqPlots), e1071 (para analisar Assimetria e Curtose), caTools (para divisão em de dados em treino e teste), pROC (para visualizar, suavizar e comparar as características de curvas ROC) e multiROC (para calcular métricas deSpecificity, Sensitivity e AUC).")
+    st.markdown("> Os algorítimos de Machine Learning utilizados neste projeto para criação dos modelos de Regressão foram: Regressão Logistica (Benchmark), KNN (2 versões), Naive Bayes (2 versões) e SVM (2 versões). Na avaliação dos modelos verificou-se que o modelo KNN V1 teve a maior acurácia (0.9312) e o maior AUC (0.9311), sendo este o escolhido para deploy pois obteve melhor desempenho em 2 das 3 métricas analisadas.")
+    st.markdown("O Dataset utilizado no projeto foi obtido em: https://www.muratkoklu.com/datasets/vtdhnd07.php")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto02_V2_Eficiencia_Extintores_Incendio/blob/main/Projeto02V3_0-Eficiencia_Extintores_Incendio.R")
+
+with st.container():
+
     st.markdown("----------------")    
     
     col1, col2 = st.columns(2)
@@ -42,37 +103,12 @@ with st.container():
     
 with st.container():
 
-    st.markdown("----------------") 
-    col4, col5 = st.columns(2)
-
-    with col4:
-        st.markdown("**2. Projeto com Feedback:**" )
-        st.markdown("### Machine Learning na Segurança do Trabalho Prevendo a Eficiência de Extintores de Incêndio.")
-
-    with col5:
-
-        image = Image.open('Projeto02r.png')
-        st.image(image,width=350)
-    
-    col6 = st.columns(1)
-    
-    st.markdown("**Resumo:** " )
-    st.markdown("> Criação de projeto de Machine Learning para segurança do trabalho “Prevendo a Eficiênciade Extintores de Incêndio” e com o objetivo da Classificação preditiva atingir 85% de acurácia.") 
-    st.markdown("> O projeto foi realizado de forma independente por 4 semanas para carregar, analisar, limpar, pré-processar, realizar a análises estatísticas e criar e avaliar os modelos de Machine Learning, utilizando linguagem R e seus pacotes readxl (para importar a fonte dedados em Excel), car (para geração de qqPlots), e1071 (para analisar Assimetria e Curtose), caTools (para divisão em de dados em treino e teste), pROC (para visualizar, suavizar e comparar as características de curvas ROC) e multiROC (para calcular métricas deSpecificity, Sensitivity e AUC).")
-    st.markdown("> Os algorítimos de Machine Learning utilizados neste projeto para criação dos modelos de Regressão foram: Regressão Logistica (Benchmark), KNN (2 versões), Naive Bayes (2 versões) e SVM (2 versões). Na avaliação dos modelos verificou-se que o modelo KNN V1 teve a maior acurácia (0.9312) e o maior AUC (0.9311), sendo este o escolhido para deploy pois obteve melhor desempenho em 2 das 3 métricas analisadas.")
-    st.markdown("O Dataset utilizado no projeto foi obtido em: https://www.muratkoklu.com/datasets/vtdhnd07.php")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto02_V2_Eficiencia_Extintores_Incendio/blob/main/Projeto02V3_0-Eficiencia_Extintores_Incendio.R")
-    
-    
-  
-with st.container():
-
     st.markdown("----------------")
     
     col7, col8 = st.columns(2)
 
     with col7:
-        st.markdown("**3. Projeto com Feedback:**" )
+        st.markdown("**0. Projeto com Feedback:**" )
         st.markdown("### Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile.")
 
     with col8:
@@ -94,3 +130,7 @@ with st.container():
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto01_Deteccao_Fraudes_Trafego_Cliques/blob/main/Projeto01_Detec%C3%A7%C3%A3o_Fraudes_Trafego_Cliques.R")
   
     st.markdown("----------------")  
+    
+    
+  
+

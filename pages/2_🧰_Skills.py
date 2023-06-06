@@ -73,4 +73,11 @@ with col15:
 
 with col16:
     scrum = st.slider('Scrum', 0, 100, 75)
+    
+col17,col18 = st.columns(2) 
 
+with col17:
+    docker = st.slider('Docker', 0, 100, 75)
+
+with col18:
+    vm = st.slider('Oracle VM', 0, 100, 75)
