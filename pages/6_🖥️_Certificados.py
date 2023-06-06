@@ -15,6 +15,17 @@ image1 = Image.open('DSCP - Evandro Cleto.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
+st.markdown("**Formação Inteligência Artificial...**")
+#image1 = Image.open('Cert_FCD.png')
+#st.image(image1,width=500)
+
+st.markdown("**... que é composta pelos cursos:**")
+
+st.markdown(">**1. Introdução à Inteligência Artificial**")
+image1 = Image.open('Cert_Into_IA.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
 st.markdown("**SQL Para Data Science**")
 image1 = Image.open('Cert_SQL.png')
 st.image(image1,width=500)
@@ -80,4 +91,7 @@ st.markdown("**Introdução à Ciência de Dados**")
 image1 = Image.open('Cert_Intro_CD.png')
 st.image(image1,width=500)
 st.markdown("----------------")   
+
+
+
 
