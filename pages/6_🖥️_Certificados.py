@@ -8,41 +8,10 @@ st.set_page_config(
     page_icon="🖥️",
 )
 
-st.markdown("### Com muito orgulho apresento meus certificados obtidos ao longo da minha minha jornada como Cientista de Dados.") 
+st.markdown("### Com muito orgulho apresento meus certificados obtidos através da minha minha jornada como Cientista de Dados.") 
 st.markdown("----------------")   
 st.markdown("**Certificação DSCP(Data Scientist Certified Professional)**")
 image1 = Image.open('DSCP - Evandro Cleto.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Formação Inteligência Artificial...**")
-#image1 = Image.open('Cert_FCD.png')
-#st.image(image1,width=500)
-
-st.markdown("**... que é composta pelos cursos:**")
-
-st.markdown(">**1. Introdução à Inteligência Artificial**")
-image1 = Image.open('Cert_Into_IA.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**SQL Para Data Science**")
-image1 = Image.open('Cert_SQL.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Microsoft Power BI Para Data Science**")
-image1 = Image.open('Power_BI.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Introdução ao Sistema Operacional Linux**")
-image1 = Image.open('Cert_Linux_Intro.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Análise Estatística e Modelagem Preditiva de Séries Temporais**")
-image1 = Image.open('Cert_Ser_Temp.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
@@ -74,6 +43,37 @@ st.image(image1,width=500)
 
 st.markdown(">**6. Visualização de dados e Design de Dashboards**")
 image1 = Image.open('Cert_Dataviz.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**SQL Para Data Science**")
+image1 = Image.open('Cert_SQL.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Microsoft Power BI Para Data Science**")
+image1 = Image.open('Power_BI.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Introdução ao Sistema Operacional Linux**")
+image1 = Image.open('Cert_Linux_Intro.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Análise Estatística e Modelagem Preditiva de Séries Temporais**")
+image1 = Image.open('Cert_Ser_Temp.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Formação Inteligência Artificial...**")
+#image1 = Image.open('Cert_FCD.png')
+#st.image(image1,width=500)
+
+st.markdown("**... que é composta pelos cursos:**")
+
+st.markdown(">**1. Introdução à Inteligência Artificial**")
+image1 = Image.open('Cert_Into_IA.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   

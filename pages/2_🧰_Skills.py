@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="🧰",
 )
 
-st.markdown("## Estes são os skills em Data Science que desenvolvi ao longo da minha carreira.")
+st.markdown("## Estes são os skills em Data Science que domino:")
 
 col1, col2 = st.columns(2)
 

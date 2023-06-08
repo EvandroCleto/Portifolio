@@ -25,7 +25,7 @@ with st.container():
 
 st.markdown("## Projetos Acadêmicos em Data Science")
 
-st.markdown("Aqui estão alguns dos projetos de Data Science que estudei ao longo da Formação Cientista de Dados na Data Science Academy(https://www.datascienceacademy.com.br/bundle/formacao-cientista-de-dados).")
+st.markdown("Aqui estão alguns dos projetos de Data Science que estudei durante a Formação Cientista de Dados na Data Science Academy(https://www.datascienceacademy.com.br/bundle/formacao-cientista-de-dados).")
 
 with st.container():
 
