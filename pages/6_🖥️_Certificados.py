@@ -78,7 +78,7 @@ st.image(image1,width=500)
 
 
 st.markdown(">**2. Deep Learning Frameworks**")
-image1 = Image.open('Cert_Deep_L_Frame.png')
+image1 = Image.open('Cert_Deep_Learning_Frame.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
