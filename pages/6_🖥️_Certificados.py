@@ -76,6 +76,11 @@ st.markdown(">**1. Introdução à Inteligência Artificial**")
 image1 = Image.open('Cert_Into_IA.png')
 st.image(image1,width=500)
 
+
+st.markdown(">**2. Deep Learning Frameworks**")
+image1 = Image.open('Cert_Deep_L_Frame.png')
+st.image(image1,width=500)
+
 st.markdown("----------------")   
 st.markdown("**Python Fundamentos para Análise de Dados**")
 image1 = Image.open('Cert_Python_Intro.png')
