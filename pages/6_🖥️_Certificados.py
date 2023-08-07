@@ -51,7 +51,6 @@ image1 = Image.open('Cert_SQL.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("----------------")   
 st.markdown("**Microsoft Power BI Para Data Science 3.0**")
 image1 = Image.open('Power_BI_3.png')
 st.image(image1,width=500)

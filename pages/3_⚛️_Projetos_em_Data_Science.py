@@ -36,7 +36,7 @@ with st.container():
     col13 = st.columns(1)
     
     st.markdown("**Resumo:** " )
-    st.markdown("> Objetivo deste projeto foi responder 10 perguntas de negócios sobre transporte publico em Londres através de análise de dados usando os pacotes parkSQL, PandaSQL, SQLAlchemy, MySql e Docker.")
+    st.markdown("> Objetivo deste projeto foi responder 10 perguntas de negócios sobre transporte publico em Londres através de análise de dados usando os pacotes SparkSQL, PandaSQL, SQLAlchemy, MySql e Docker.")
     st.markdown("> Este foi um projeto desafiador pois foi desenvolvido no Linux Ubuntu 22.04, inicializado através de virtualização pelo Oracle VM VirtualBox que foi instalado em uma máquina com Windows 11.")
     st.markdown("> O projeto teve início baixando um dataset do Microsoft Excel do link https://data.world/makeovermonday/2018w51, no Linux Ubuntu, onde foi instalado o Anaconda Python.")
     st.markdown("> O dataset foi carregado através do pacote Pandas, que também foi usado para análise exploratória, em formato de dataframe.") 
