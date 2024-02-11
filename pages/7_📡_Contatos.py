@@ -17,7 +17,7 @@ st.write('📧: **evandrocleto74@gmail.com**')
 st.write('📱: **+551197069-0730**')
 st.write('LinkedIn: https://www.linkedin.com/in/evandro-cleto/?locale=pt_BR')
 st.write('GitHub:https://github.com/EvandroCleto')
-pages
+
 pdfFileObj = open("/mount/src/portifolio/Curriculo_DS_PT_V0.pdf", 'rb')
 st.download_button('Baixe meu CV:',pdfFileObj,file_name='Curriculo_Evandro_Cleto.pdf',mime='pdf')
 
