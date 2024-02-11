@@ -21,4 +21,4 @@ st.write('GitHub:https://github.com/EvandroCleto')
 pdfFileObj = open('Curriculo_Evandro_CletoDS.pdf', 'rb')
 st.download_button('Baixe meu CV',pdfFileObj,file_name='Currículo_DS_PT_V0.pdf',mime='pdf')
 
-st.write('#### Será um prazer receber seu contato.')
+st.write('#### Será um prazer receber seu contato!!')
