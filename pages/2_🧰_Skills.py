@@ -15,7 +15,7 @@ with col1:
    st.slider("SQL",0,100, 95)
 
 with col2:
-    r = st.slider('Linguagem R', 0, 100, 90)
+    r = st.slider('Python', 0, 100, 90)
     
     
 col3, col4 = st.columns(2)
@@ -24,31 +24,31 @@ with col3:
     ml = st.slider('Machine Learning', 0, 100, 90)
 
 with col4:
-    office = st.slider('Pacote Office', 0, 100, 90)
+    prompt = st.slider('Prompt Engineering', 0, 100, 90)
 
 col5, col6 = st.columns(2)
 
 with col5:
-    python = st.slider('Python', 0, 100, 90)
-
+    llm = st.slider('LLM', 0, 100, 90)
+    
 with col6:
-    spark = st.slider('Apache Spark', 0, 100, 80)
-
+    rl = st.slider('Linguagem R', 0, 100, 90)
+    
 col7, col8 = st.columns(2)
 
 with col7:
-    aml = st.slider('Azure Machine Learning', 0, 100, 80)
+   spark = st.slider('Apache Spark', 0, 100, 80)
 
 with col8:
-    stats = st.slider('Estatística', 0, 100, 80)
+    git = st.slider('Git/GitHub', 0, 100, 80)
 
 col9, col10 = st.columns(2)
 
 with col9:
-    git = st.slider('Git/GitHub', 0, 100, 80)
-
+    gcp = st.slider('GCP (VertexIA | Big Query)', 0, 100, 80)    
+    
 with col10:
-    kanban = st.slider('Kanban', 0, 100, 80)
+    aml = st.slider('Azure Machine Learning', 0, 100, 80)
     
 col11, col12 = st.columns(2) 
 
@@ -64,7 +64,7 @@ with col13:
     haddop = st.slider('Apache Hadoop', 0, 100, 75)
 
 with col14:
-    dl = st.slider('Deep Learning', 0, 100, 75)
+    vm = st.slider('Oracle VM', 0, 100, 75)
 
 col15, col16 = st.columns(2) 
 
@@ -80,4 +80,28 @@ with col17:
     docker = st.slider('Docker', 0, 100, 75)
 
 with col18:
-    vm = st.slider('Oracle VM', 0, 100, 75)
+    dl = st.slider('Deep Learning', 0, 100, 75)
+    
+col19,col20 = st.columns(2) 
+    
+with col19:
+    pt = st.slider('PyTorch', 0, 100, 75)
+
+with col20:
+    ts = st.slider('TensorFlow', 0, 100, 75)
+        
+col21,col22 = st.columns(2) 
+    
+with col21:
+    tr = st.slider('Transformers', 0, 100, 75)
+    
+with col22:
+    hf = st.slider('Hugging Face', 0, 100, 75)  
+
+col23,col24 = st.columns(2) 
+    
+with col21:
+    vector = st.slider('Vector DB', 0, 100, 75)
+    
+with col22:
+    rag = st.slider('RAG', 0, 100, 60)  

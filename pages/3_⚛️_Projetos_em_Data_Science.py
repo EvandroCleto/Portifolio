@@ -11,6 +11,31 @@ st.markdown("# Projetos em Data Science")
 
 st.markdown("Aqui estão alguns dos projetos de Data Science que desenvolvi ao longo da minha carreira.")
 
+
+with st.container():
+
+    st.markdown("----------------")
+    
+    col13, col14 = st.columns(2)
+
+    with col13:
+        st.markdown("### 4. Projeto de Machine Learning para Previsão de Consumo de Combustível")
+
+    with col14:
+
+        image = Image.open('ProjetoDSCS.jpg')
+        st.image(image,width=250)
+    
+    col15 = st.columns(1)
+
+    st.markdown("**Resumo:** " )
+    st.markdown("> Neste projeto existiram 2 objetivos:")
+    st.markdown("> O 1º objetivo foi aplicar conhecimento em Data Science e responder 8 perguntas sobre Logística e Consumo de Combustível com tabelas e gráficos gerados com os pacotes Pandas, Matplotlib e Seaborn do Python.")
+    st.markdown("> 0 2 objetivo foi criar modelos de Machine Learning para Prever de Consumo de Combustível. Para esta previsão foi usado um modelo de Regressão(Benchmark) e um modelo SVM e um modelo SVM com otimização de parâmetros através da biblioteca Python SciKit-learn.")
+    st.markdown("> As métricas usadas foram Coeficiente R2 e RMSE.") 
+    st.markdown("> O objetivo foi alcançar um Coeficiente R2 de 70%.")
+    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto_Previsao_Consumo_Combustivel")
+
 with st.container():
 
     st.markdown("----------------")
@@ -68,7 +93,7 @@ with st.container():
     st.markdown("**Resumo:** " )
     st.markdown("> Criação de projeto de Machine Learning para segurança do trabalho “Prevendo a Eficiênciade Extintores de Incêndio” e com o objetivo da Classificação preditiva atingir 85% de acurácia.") 
     st.markdown("> O projeto foi realizado de forma independente por 4 semanas para carregar, analisar, limpar, pré-processar, realizar a análises estatísticas e criar e avaliar os modelos de Machine Learning, utilizando linguagem R e seus pacotes readxl (para importar a fonte dedados em Excel), car (para geração de qqPlots), e1071 (para analisar Assimetria e Curtose), caTools (para divisão em de dados em treino e teste), pROC (para visualizar, suavizar e comparar as características de curvas ROC) e multiROC (para calcular métricas deSpecificity, Sensitivity e AUC).")
-    st.markdown("> Os algorítimos de Machine Learning utilizados neste projeto para criação dos modelos de Regressão foram: Regressão Logistica (Benchmark), KNN (2 versões), Naive Bayes (2 versões) e SVM (2 versões). Na avaliação dos modelos verificou-se que o modelo KNN V1 teve a maior acurácia (0.9312) e o maior AUC (0.9311), sendo este o escolhido para deploy pois obteve melhor desempenho em 2 das 3 métricas analisadas.")
+    st.markdown("> Os algorítimos de Machine Learning utilizados neste projeto para criação dos modelos de Classificação foram: Regressão Logistica (Benchmark), KNN (2 versões), Naive Bayes (2 versões) e SVM (2 versões). Na avaliação dos modelos verificou-se que o modelo KNN V1 teve a maior acurácia (0.9312) e o maior AUC (0.9311), sendo este o escolhido para deploy pois obteve melhor desempenho em 2 das 3 métricas analisadas.")
     st.markdown("O Dataset utilizado no projeto foi obtido em: https://www.muratkoklu.com/datasets/vtdhnd07.php")
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto02_V2_Eficiencia_Extintores_Incendio/blob/main/Projeto02V3_0-Eficiencia_Extintores_Incendio.R")
 
