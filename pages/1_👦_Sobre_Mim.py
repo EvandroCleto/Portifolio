@@ -19,8 +19,8 @@ with col1:
     st.text("")
     st.markdown('<div style="font-size: 14px">Ah, se você estiver com pressa, o meu currículo está aqui:</div>', unsafe_allow_html=True)
     st.text("")
-    pdfFileObj = open("/mount/src/portifolio/Curriculo_DS_PT_V0.pdf", 'rb')
-    #pdfFileObj = open("Curriculo_DS_PT_V0.pdf", 'rb')
+    pdfFileObj = open("/mount/src/portifolio/Curriculo_DS_PT_V1.pdf", 'rb')
+    #pdfFileObj = open("Curriculo_DS_PT_V1.pdf", 'rb')
     st.download_button('Baixe meu CV:',pdfFileObj,file_name='Curriculo_Evandro_Cleto.pdf',mime='pdf')
 
 with col2:
