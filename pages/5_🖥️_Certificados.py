@@ -26,9 +26,22 @@ image1 = Image.open('Cert_Prompt.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Deep Learning for AI Applications with PyTorch and Lightning**")
-image1 = Image.open('Cert_DL_Pytorch.jpg')
-st.image(image1,width=500)
+st.markdown("**Formação Engenheiro de Inteligência Artificial 3.0...**")
+#image1 = Image.open('Cert_FCD.png')
+#st.image(image1,width=500)
+
+st.markdown("**... que é composta pelos cursos:**")
+
+col14, col15  = st.columns(2)
+width=230
+with col14:
+    st.markdown(">**1. Deep Learning for AI Applications with PyTorch and Lightning**")
+    image1 = Image.open('Cert_DL_Pytorch.jpg')
+    st.image(image1,width=width)
+with col15:
+    st.markdown(">**2. Natural Language Processing with Transformers e LLMs**")
+    image1 = Image.open('Cert_PNL_Transformers.jpg')
+    st.image(image1,width=width)
 
 st.markdown("----------------")   
 st.markdown("**Formação Cientista de Dados...**")
