@@ -120,9 +120,9 @@ with col11:
     st.image(image1,width=width)
     
 with col12:
-    st.markdown(">**6. Programação em Linguagem Natural - Em curso**")
-    #image1 = Image.open('Cert_Dataviz.png')
-    #st.image(image1,width=width)
+    st.markdown(">**6. Programação em Linguagem Natural e Reconhecimento de Voz**")
+    image1 = Image.open('cert_PNL_FIA.png')
+    st.image(image1,width=width)
 
 st.markdown("----------------")   
 st.markdown("**SQL Para Data Science**")
