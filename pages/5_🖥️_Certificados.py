@@ -112,10 +112,12 @@ col10, col11, col12  = st.columns(3)
 width=230
 with col10:
     st.markdown(">**4. Deep Learning I**")
+    st.text("")
     image1 = Image.open('Deep_LearningI.png')
     st.image(image1,width=width)
 with col11:
     st.markdown(">**5. Deep Learning II**")
+    st.text("")
     image1 = Image.open('Deep_LearningII.png')
     st.image(image1,width=width)
     
