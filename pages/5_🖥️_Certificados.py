@@ -132,7 +132,7 @@ width=230
 with col13:
     st.markdown(">**7. Sistemas Cognitivos**")
     st.text("")
-    image1 = Image.open('cert_sist_cognitivo.png')
+    image1 = Image.open('cert_sist_cognitivos.png')
     st.image(image1,width=width)
 with col14:
     st.markdown(">**7. Análise de Grafos para Big Data- em curso**")
