@@ -135,12 +135,12 @@ with col13:
     image2 = Image.open('cert_sist_cognitivos.jpg')
     st.image(image2,width=width)
 with col14:
-    st.markdown(">**7. Análise de Grafos para Big Data- em curso**")
-    #image1 = Image.open('Deep_LearningII.png')
-    #st.image(image1,width=width)
+    st.markdown(">**7. Análise de Grafos para Big Data**")
+    image1 = Image.open('Cert_Grafos.jpg')
+    st.image(image1,width=width)
     
 with col15:
-    st.markdown(">**7. Visão Computacional e Reconhecimento de Imagem - à cursar**")
+    st.markdown(">**7. Visão Computacional e Reconhecimento de Imagem - em curso**")
     #image1 = Image.open('cert_PNL_FIA.png')
     #st.image(image1,width=width)
 

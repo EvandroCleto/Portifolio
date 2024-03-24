@@ -12,7 +12,7 @@ st.set_page_config(
 image = Image.open('Home_DSr.jpg')
 st.image(image,width=620)
 
-st.markdown('<div style="text-align: center;font-size: 40px"><b>Evandro Eulálio Cleto</b></div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: center;font-size: 40px"><b>Evandro Cleto</b></div>', unsafe_allow_html=True)
 st.markdown('<div style="text-align: center;font-size: 23px"><b>Data Scientist Certified Specialist | Generative IA</b></div>', unsafe_allow_html=True)
 
 st.text("")

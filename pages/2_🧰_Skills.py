@@ -100,8 +100,16 @@ with col22:
 
 col23,col24 = st.columns(2) 
     
-with col21:
+with col23:
     vector = st.slider('Vector DB', 0, 100, 75)
     
-with col22:
+with col24:
     rag = st.slider('RAG', 0, 100, 60)  
+
+col25,col26 = st.columns(2) 
+    
+with col25:
+    vector = st.slider('Neo4j', 0, 100, 60)
+    
+with col26:
+    rag = st.slider('Cypher', 0, 100, 60)  

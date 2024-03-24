@@ -17,11 +17,11 @@ with col1:
     st.markdown('<div style="font-size: 14px">E não parei por aqui. No momento estou me atualizando e desenvolvendo projetos que usam ferramentas como Transformer, LLMs, Langchain, Vector Databases e Hugging Face que são o estado da arte em IA Generativa.</div>', unsafe_allow_html=True)
     st.markdown('<div style="font-size: 14px">É um prazer receber sua visita.</div>', unsafe_allow_html=True)
     st.text("")
-    st.markdown('<div style="font-size: 14px">Ah, se você estiver com pressa, o meu currículo está aqui:</div>', unsafe_allow_html=True)
-    st.text("")
-    pdfFileObj = open("/mount/src/portifolio/Curriculo_DS_PT_V1.pdf", 'rb')
+    #st.markdown('<div style="font-size: 14px">Ah, se você estiver com pressa, o meu currículo está aqui:</div>', unsafe_allow_html=True)
+    #st.text("")
+    #pdfFileObj = open("/mount/src/portifolio/Curriculo_DS_PT_V1.pdf", 'rb')
     #pdfFileObj = open("Curriculo_DS_PT_V1.pdf", 'rb')
-    st.download_button('Baixe meu CV:',pdfFileObj,file_name='Curriculo_Evandro_Cleto.pdf',mime='pdf')
+    #st.download_button('Baixe meu CV:',pdfFileObj,file_name='Curriculo_Evandro_Cleto.pdf',mime='pdf')
 
 with col2:
     image = Image.open('Main_Photor.jpg')
