@@ -14,6 +14,6 @@ components.html("""<script src="https://platform.linkedin.com/badges/js/profile.
     
 
 st.write('📧: **evandrocleto74@gmail.com**')
-st.write('📱: **+551197069-0730**')
+#st.write('📱: **+551197069-0730**')
 st.write('LinkedIn: https://www.linkedin.com/in/evandro-cleto/?locale=pt_BR')
 st.write('GitHub:https://github.com/EvandroCleto')
