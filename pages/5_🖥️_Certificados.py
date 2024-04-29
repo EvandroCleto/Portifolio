@@ -44,50 +44,9 @@ with col15:
     st.image(image1,width=width)
 
 st.markdown("----------------")   
-st.markdown("**Formação Cientista de Dados...**")
-image1 = Image.open('Cert_FCD.png')
-st.image(image1,width=500)
-
-st.markdown("**... que é composta pelos cursos:**")
-
-col1, col2, col3  = st.columns(3)
-width=230
-with col1:
-    st.markdown(">**1. Big Data Analytics com R e Microsoft Azure ML**")
-    image1 = Image.open('Cert_R.png')
-    st.image(image1,width=width)
-with col2:
-    st.markdown(">**2. Big Data Real-Time Analytics com Python e Spark**")
-    image1 = Image.open('Cert_Python_Spark.png')
-    st.image(image1,width=width)
-    
-with col3:
-    st.markdown(">**3. Engenharia de Dados com Hadoop e Spark**")
-    image1 = Image.open('Cert_Haddop.png')
-    st.image(image1,width=width)
-    
-col4, col5, col6  = st.columns(3)
-width=230
-with col4:
-    st.markdown(">**4. Machine Learning**                             ")
-    st.text("")
-    image1 = Image.open('Cert_ML.png')
-    st.image(image1,width=width)
-with col5:
-    st.markdown(">**5. Business Analytics**                            ")
-    st.text("")
-    image1 = Image.open('Cert_Business.png')
-    st.image(image1,width=width)
-    
-with col6:
-    st.markdown(">**6. Visualização de dados e Design de Dashboards**")
-    image1 = Image.open('Cert_Dataviz.png')
-    st.image(image1,width=width)
-
-st.markdown("----------------")   
 st.markdown("**Formação Inteligência Artificial...**")
-#image1 = Image.open('Cert_FCD.png')
-#st.image(image1,width=500)
+image1 = Image.open('Cert_FIA.jpg')
+st.image(image1,width=500)
 
 st.markdown("**... que é composta pelos cursos:**")
 
@@ -140,9 +99,50 @@ with col14:
     st.image(image1,width=width)
     
 with col15:
-    st.markdown(">**7. Visão Computacional e Reconhecimento de Imagem - em curso**")
-    #image1 = Image.open('cert_PNL_FIA.png')
-    #st.image(image1,width=width)
+    st.markdown(">**7. Visão Computacional e Reconhecimento de Imagem**")
+    image1 = Image.open('Cert_VisaoFIA.jpg')
+    st.image(image1,width=width)
+
+st.markdown("----------------")   
+st.markdown("**Formação Cientista de Dados...**")
+image1 = Image.open('Cert_FCD.png')
+st.image(image1,width=500)
+
+st.markdown("**... que é composta pelos cursos:**")
+
+col1, col2, col3  = st.columns(3)
+width=230
+with col1:
+    st.markdown(">**1. Big Data Analytics com R e Microsoft Azure ML**")
+    image1 = Image.open('Cert_R.png')
+    st.image(image1,width=width)
+with col2:
+    st.markdown(">**2. Big Data Real-Time Analytics com Python e Spark**")
+    image1 = Image.open('Cert_Python_Spark.png')
+    st.image(image1,width=width)
+    
+with col3:
+    st.markdown(">**3. Engenharia de Dados com Hadoop e Spark**")
+    image1 = Image.open('Cert_Haddop.png')
+    st.image(image1,width=width)
+    
+col4, col5, col6  = st.columns(3)
+width=230
+with col4:
+    st.markdown(">**4. Machine Learning**                             ")
+    st.text("")
+    image1 = Image.open('Cert_ML.png')
+    st.image(image1,width=width)
+with col5:
+    st.markdown(">**5. Business Analytics**                            ")
+    st.text("")
+    image1 = Image.open('Cert_Business.png')
+    st.image(image1,width=width)
+    
+with col6:
+    st.markdown(">**6. Visualização de dados e Design de Dashboards**")
+    image1 = Image.open('Cert_Dataviz.png')
+    st.image(image1,width=width)
 
 st.markdown("----------------")   
 st.markdown("**SQL Para Data Science**")
